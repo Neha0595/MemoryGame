@@ -27,7 +27,10 @@ It Contain following subfolders:
 5. Assets: Contain image file of app - logo.png and you-won.png
 6. utils: Contain ArrayUtility which in turn contain code for shuffle grid cards.
 
-To Run the code perform following steps from app folder:
+MemoryGame.pdf file: It contain screenshot of game, how to run the app and a little bit description of project.
+
+Run the App:
+To run app perform following steps from app folder
 1. open CMD
 2. cd task2
 3. npm start
