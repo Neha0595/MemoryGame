@@ -26,3 +26,9 @@ It Contain following subfolders:
 4. Config: Contain Constants i.e., GridArray of size 4, 8, 12
 5. Assets: Contain image file of app - logo.png and you-won.png
 6. utils: Contain ArrayUtility which in turn contain code for shuffle grid cards.
+
+To Run the code perform following steps from app folder:
+1. open CMD
+2. cd task2
+3. npm start
+
