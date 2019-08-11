@@ -1,0 +1,40 @@
+.Container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.App-Logo {
+  height: 40vmin;
+  width: 40vmin;
+}
+
+.Main-Menu {
+  width: 100%;
+  text-align: center;
+}
+
+.App-Name {
+  font-family: 'URW Chancery L', cursive;
+  font-size: 6vmin;
+  line-height: 2;
+  font-weight: bold;
+  color: #f4817f;
+}
+
+.App-Text {
+  color: white;
+  font-family: 'Snell Roundhand', cursive;
+  font-size: 5vmin;
+  text-decoration: none;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.App-Text:hover {
+  color: #9d9d9d;
+}

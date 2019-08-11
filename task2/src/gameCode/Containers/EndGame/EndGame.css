@@ -1,0 +1,46 @@
+.EndGame-Container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.youWonImage {
+  height: 40vmin;
+  width: 40vmin;
+}
+
+.youWonText {
+  color: white;
+  font-family: 'Snell Roundhand', cursive;
+  font-size: 5vmin;
+  text-decoration: none;
+  line-height: 2;
+  font-weight: bold;
+  text-align: center;
+}
+
+.movesText {
+  color: #f4817f;
+  font-family: 'URW Chancery L', cursive;
+  font-size: 4vmin;
+  text-decoration: none;
+  line-height: 2;
+  text-align: center;
+}
+
+.newGameLink {
+  font-family: 'URW Chancery L', cursive;
+  font-size: 4vmin;
+  line-height: 2;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.newGameLink:hover {
+  color: #f4817f;
+}

@@ -1,0 +1,32 @@
+.Card-Back {
+  border-radius: 4px;
+  box-shadow: 0 0 3px white;
+  color: #f4817f;
+  font-size: 6vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid #f4817f;
+}
+
+.Card-Front {
+  border-radius: 4px;
+  box-shadow: 0 0 3px white;
+  color: white;
+  font-size: 6vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid #f4817f;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.is-Flipped {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
